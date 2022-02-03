@@ -7,7 +7,7 @@ let numbers = [38,926,53,15,37,85,33,-87,56,-08,89,-73,90,23,-4];
 function positiveNumbersArray(_array){
     let positiveNumbers = []
 for (let number of numbers){
-    if (number >= 0){
+    if (number > 0){
         positiveNumbers.push(number);
     }
     else{
